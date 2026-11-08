@@ -1,0 +1,8 @@
+{
+  "name": "seo-with-rankspot",
+  "version": "1.0.1",
+  "description": "AI SEO, GEO and AI visibility: see how AI answers mention your brand, research keywords and competitors, write SEO articles, read Search Console.",
+  "type": "module",
+  "license": "MIT",
+  "repository": "https://github.com/RankSpotAI/open-plugin"
+}
