@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "rankspot": {
+      "url": "https://mcp.rankspot.ai",
+      "transport": "streamable-http",
+      "auth": "oauth"
+    }
+  }
+}

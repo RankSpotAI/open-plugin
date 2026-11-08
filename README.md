@@ -42,6 +42,14 @@ If the CLI can't finish the browser sign-in, add the server with an API key inst
 agy mcp add --header "Authorization: Bearer YOUR_RANKSPOT_API_KEY" rankspot-key https://mcp.rankspot.ai
 ```
 
+### OpenClaw
+
+```bash
+openclaw plugins install clawhub:seo-with-rankspot
+```
+
+Then sign in to RankSpot from the plugin's page. The OpenClaw bundle lives in [`openclaw/`](openclaw).
+
 ### Using an API key instead
 
 If you prefer an API key, skip the plugin and add the server to `~/.cursor/mcp.json` yourself. Create a key under **Account settings → API Keys**:
