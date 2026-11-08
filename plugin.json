@@ -8,6 +8,7 @@
     "url": "https://www.rankspot.ai"
   },
   "homepage": "https://www.rankspot.ai/mcp",
+  "repository": "https://github.com/RankSpotAI/open-plugin",
   "license": "MIT",
   "keywords": [
     "seo",
