@@ -1,8 +1,8 @@
-# SEO with RankSpot: AI SEO, GEO and AI visibility for Cursor
+# SEO with RankSpot: AI SEO, GEO and AI visibility for Cursor, Gemini CLI and Antigravity
 
 <img src="assets/logo.png" alt="SEO with RankSpot" width="96" />
 
-Do SEO, AI SEO and GEO (generative engine optimization) without leaving Cursor. Connect the agent to your [RankSpot](https://www.rankspot.ai) workspaces to track your AI visibility in ChatGPT, Perplexity and Google AI answers, research keywords and competitors, and write and publish SEO articles, all in plain English from the agent chat.
+Do SEO, AI SEO and GEO (generative engine optimization) without leaving your agent: Cursor, Gemini CLI or Antigravity. Connect the agent to your [RankSpot](https://www.rankspot.ai) workspaces to track your AI visibility in ChatGPT, Perplexity and Google AI answers, research keywords and competitors, and write and publish SEO articles, all in plain English from the agent chat.
 
 This plugin adds the hosted RankSpot MCP server (`https://mcp.rankspot.ai`, Streamable HTTP). There is nothing to install or run locally.
 
@@ -19,10 +19,28 @@ This plugin adds the hosted RankSpot MCP server (`https://mcp.rankspot.ai`, Stre
 ## Setup
 
 1. Create a RankSpot account at [rankspot.ai](https://www.rankspot.ai) and finish your workspace setup.
-2. Install the plugin from the Cursor Marketplace.
+2. Install the plugin from the Cursor Marketplace, or use the Gemini CLI or Antigravity commands below.
 3. The first time the agent calls a RankSpot tool, Cursor opens a RankSpot sign-in page. Log in, review the organizations and workspaces the app will reach, and approve.
 
 Cursor stores and refreshes the tokens for you. Revoke access any time under **Account settings → Connected Apps** in RankSpot.
+
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/RankSpotAI/open-plugin
+```
+
+### Antigravity
+
+```bash
+agy plugin install https://github.com/RankSpotAI/open-plugin
+```
+
+If the CLI can't finish the browser sign-in, add the server with an API key instead:
+
+```bash
+agy mcp add --header "Authorization: Bearer YOUR_RANKSPOT_API_KEY" rankspot-key https://mcp.rankspot.ai
+```
 
 ### Using an API key instead
 

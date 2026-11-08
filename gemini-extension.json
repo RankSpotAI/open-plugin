@@ -1,0 +1,10 @@
+{
+  "name": "seo-with-rankspot",
+  "version": "1.0.0",
+  "description": "AI SEO, GEO and AI visibility: track how AI answers mention your brand, research keywords and competitors, write SEO articles, read Search Console.",
+  "mcpServers": {
+    "rankspot": {
+      "httpUrl": "https://mcp.rankspot.ai"
+    }
+  }
+}

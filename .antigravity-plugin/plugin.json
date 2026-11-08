@@ -1,0 +1,20 @@
+{
+  "name": "seo-with-rankspot",
+  "displayName": "SEO with RankSpot",
+  "description": "AI SEO, GEO and AI visibility: see how AI answers mention your brand, research keywords and competitors, write SEO articles, read Search Console.",
+  "version": "1.0.0",
+  "logo": "assets/logo.png",
+  "author": {
+    "name": "RankSpot",
+    "url": "https://www.rankspot.ai"
+  },
+  "homepage": "https://www.rankspot.ai/mcp",
+  "repository": "https://github.com/RankSpotAI/open-plugin",
+  "license": "MIT",
+  "keywords": ["seo", "ai seo", "geo", "aeo", "ai visibility", "keyword research", "backlinks", "search console", "content marketing"],
+  "suggestedPrompts": [
+    "How often is my brand mentioned in AI answers this month, and which competitors show up more?",
+    "Which Search Console queries for my site are on page two?",
+    "Find three content gaps against my competitors and plan an article for each."
+  ]
+}
