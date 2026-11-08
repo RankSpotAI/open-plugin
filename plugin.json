@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "seo-with-rankspot",
+  "version": "1.0.0",
+  "description": "AI SEO, GEO and AI visibility for your website. Track how ChatGPT, Perplexity and Google AI answers mention your brand, do keyword and competitor research, find backlink gaps, write and publish SEO articles, read Google Search Console data, and run link-building outreach.",
+  "author": {
+    "name": "RankSpot",
+    "url": "https://www.rankspot.ai"
+  },
+  "homepage": "https://www.rankspot.ai/mcp",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "ai seo",
+    "geo",
+    "generative engine optimization",
+    "aeo",
+    "answer engine optimization",
+    "ai visibility",
+    "ai search",
+    "llm seo",
+    "keyword research",
+    "competitor analysis",
+    "backlinks",
+    "link building",
+    "search console",
+    "content marketing",
+    "seo writing"
+  ]
+}
